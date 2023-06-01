@@ -1,2 +1,4 @@
 #!/bin/bash
-mkdir /tmp/my_working_directory
+directory_name="/tmp/my_first_directory/"
+
+mkdir "$directory_name"
